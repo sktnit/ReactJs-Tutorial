@@ -10,7 +10,7 @@ function App()
 
     // template literals: ` `
     <div className='app'>
-      <h1> `Hello! This is ${name}`</h1>
+      <h1> {`Hello! This is ${ name }`}</h1>
       <p>
         Welcome to Node JS tutorial!
       </p>
