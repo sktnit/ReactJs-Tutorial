@@ -14,6 +14,7 @@ function App()
         {
           return (
             <Card
+              key={val.id}
               name={val.name}
               imgsrc={val.imgsrc}
               title={val.title}
