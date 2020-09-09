@@ -16,6 +16,7 @@ function App()
   {
     event.preventDefault();
     setFullName(name);
+    setName("");
   }
 
   return (
