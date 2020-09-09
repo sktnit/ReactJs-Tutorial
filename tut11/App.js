@@ -13,6 +13,7 @@ function App()
         data.map((val) =>
         {
           return (
+            /* Calling functional component within map */
             <Card
               key={val.id}
               name={val.name}
